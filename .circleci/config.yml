@@ -11,6 +11,7 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
-  deploy_docker:    
+  deploy_docker: 
+    machine: true
     steps:      
       - run: echo "Deploy section running"
